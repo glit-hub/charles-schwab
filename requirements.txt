@@ -1,0 +1,10 @@
+pandas
+requests
+#webbrowser
+numpy
+sqlalchemy
+python-dotenv
+loguru
+psycopg2
+holidays
+pandas-market-calendars

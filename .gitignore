@@ -1,0 +1,6 @@
+docs/
+.env
+.venv
+access_token.txt
+refresh_token.txt
+__pycache__
