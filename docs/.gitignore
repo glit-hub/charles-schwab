@@ -1,0 +1,4 @@
+# Ignore everything in docs folder
+*
+# keep the docs folder only, so the folder exists in git
+!.gitignore
