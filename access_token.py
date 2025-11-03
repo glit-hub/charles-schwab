@@ -10,7 +10,7 @@ dotenv.load_dotenv()
 app_key = os.getenv("app_key")
 app_secret = os.getenv("app_secret")
 token_file = "refresh_token.txt"
-#redirect_uri = "https://127.0.0.1"
+
 
 def read_refresh_token():
     try:
@@ -45,7 +45,6 @@ def access_tokens():
 
     if response.status_code == 200:
         token_data = response.json()
-        #print(token_data)
         access_token = token_data['access_token']
         with open("access_token.txt", "a") as f:
             f.write(f"\n{access_token}")
